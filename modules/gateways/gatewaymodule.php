@@ -42,9 +42,9 @@ if (!defined("WHMCS")) {
 function gatewaymodule_MetaData()
 {
     return array(
-        'DisplayName' => 'Sample Payment Gateway Module',
+        'DisplayName' => 'Pagalo Card',
         'APIVersion' => '1.1', // Use API Version 1.1
-        'DisableLocalCreditCardInput' => true,
+        'DisableLocalCreditCardInput' => false,
         'TokenisedStorage' => false,
     );
 }
